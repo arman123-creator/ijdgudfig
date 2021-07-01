@@ -1,0 +1,71 @@
+
+@keyframes abcd {
+    from {background-color: greenyellow;}
+    to {background-color: white;}
+  }
+
+h1{
+    color : black;
+    background-color : white;
+    text-shadow: 4px 4px 7px yellow;
+    font-family: Courier , monospace;
+   
+}
+
+h2{
+
+color:red;
+
+text-shadow: 4px 4px 7px  blue;
+}
+
+h3{
+color : rgb(42, 9, 163);
+text-shadow: 4px 4px 8x blue;
+font-family: Courier , monospace;
+}
+
+.header{
+    color : green;
+    background-image: url("images/duhfd.jpg");
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    background-color : white;
+    display:flex;
+justify-content : space-between;
+flex-wrap: wrap;
+}
+
+.navigation {
+    width: 100px;
+    height: 80px;
+    background-color:white;
+    animation-name: abcd;
+    animation-duration: 7s;
+
+    display: block;
+    color: #f2f2f2;
+    text-align: end;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  img{
+    -webkit-box-reflect:right;
+  }
+
+  .chameleon{
+      padding-right:70px;
+  }
+
+  .panda{
+    padding-right:70px;
+  }
+
+  .bear{
+    padding-right:140px;
+  }
